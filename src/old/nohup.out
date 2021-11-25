@@ -1,0 +1,117 @@
+Progress:   6%|██▍                                      |  ETA: 0:00:02[KProgress: 100%|█████████████████████████████████████████| Time: 0:00:00[K
+Progress:   0%|                           |  ETA: 1 days, 7:32:01 (27.73  s/it)[KProgress:   0%|                           |  ETA: 1 days, 8:35:36 (28.67  s/it)[KProgress:   0%|                           |  ETA: 1 days, 9:26:59 (29.43  s/it)[KProgress:   0%|                           |  ETA: 1 days, 8:43:49 (28.80  s/it)[K
+signal (15): Terminated
+in expression starting at /home/yuri/kaggle/g2net-gravitational-wave-detection/img_tfrec_src/build_test_img.jl:207
+pthread_cond_wait at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:827
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:509
+poptask at ./task.jl:704
+wait at ./task.jl:712 [inlined]
+task_done_hook at ./task.jl:442
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1691 [inlined]
+jl_finish_task at /buildworker/worker/package_linux64/build/src/task.c:196
+jl_threadfun at /buildworker/worker/package_linux64/build/src/partr.c:265
+start_thread at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+clone at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:827
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:509
+poptask at ./task.jl:704
+wait at ./task.jl:712 [inlined]
+task_done_hook at ./task.jl:442
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1691 [inlined]
+jl_finish_task at /buildworker/worker/package_linux64/build/src/task.c:196
+jl_threadfun at /buildworker/worker/package_linux64/build/src/partr.c:265
+start_thread at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+clone at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:827
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:509
+poptask at ./task.jl:704
+wait at ./task.jl:712 [inlined]
+task_done_hook at ./task.jl:442
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1691 [inlined]
+jl_finish_task at /buildworker/worker/package_linux64/build/src/task.c:196
+jl_threadfun at /buildworker/worker/package_linux64/build/src/partr.c:265
+start_thread at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+clone at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:827
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:509
+poptask at ./task.jl:704
+wait at ./task.jl:712 [inlined]
+task_done_hook at ./task.jl:442
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1691 [inlined]
+jl_finish_task at /buildworker/worker/package_linux64/build/src/task.c:196
+jl_threadfun at /buildworker/worker/package_linux64/build/src/partr.c:265
+start_thread at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+clone at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:827
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:509
+poptask at ./task.jl:704
+wait at ./task.jl:712 [inlined]
+task_done_hook at ./task.jl:442
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1691 [inlined]
+jl_finish_task at /buildworker/worker/package_linux64/build/src/task.c:196
+jl_threadfun at /buildworker/worker/package_linux64/build/src/partr.c:265
+start_thread at /lib/x86_64-linux-gnu/libpthread.so.0 (unknown line)
+clone at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+ht_keyindex at ./dict.jl:0
+haskey at ./dict.jl:535 [inlined]
+in at ./set.jl:56 [inlined]
+allunique at ./set.jl:377
+check_gridded at /home/yuri/.julia/packages/Interpolations/GIn2o/src/gridded/gridded.jl:51 [inlined]
+GriddedInterpolation at /home/yuri/.julia/packages/Interpolations/GIn2o/src/gridded/gridded.jl:32
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+interpolate at /home/yuri/.julia/packages/Interpolations/GIn2o/src/gridded/gridded.jl:66
+interpolate at /home/yuri/.julia/packages/Interpolations/GIn2o/src/gridded/gridded.jl:83 [inlined]
+matched_filter_core! at /home/yuri/kaggle/g2net-gravitational-wave-detection/img_tfrec_src/build_test_img.jl:119
+matched_filter_main! at /home/yuri/kaggle/g2net-gravitational-wave-detection/img_tfrec_src/build_test_img.jl:137
+forloop_main at /home/yuri/kaggle/g2net-gravitational-wave-detection/img_tfrec_src/build_test_img.jl:159
+SNR_main at /home/yuri/kaggle/g2net-gravitational-wave-detection/img_tfrec_src/build_test_img.jl:201
+unknown function (ip: 0x7f00d16eea2c)
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2231 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1691 [inlined]
+do_call at /buildworker/worker/package_linux64/build/src/interpreter.c:117
+Progress:   0%|                           |  ETA: 1 days, 10:30:33 (30.37  s/it)[Keval_value at /buildworker/worker/package_linux64/build/src/interpreter.c:206
+eval_stmt_value at /buildworker/worker/package_linux64/build/src/interpreter.c:157 [inlined]
+eval_body at /buildworker/worker/package_linux64/build/src/interpreter.c:566
+jl_interpret_toplevel_thunk at /buildworker/worker/package_linux64/build/src/interpreter.c:660
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:840
+jl_parse_eval_all at /buildworker/worker/package_linux64/build/src/ast.c:913
+jl_load_rewrite at /buildworker/worker/package_linux64/build/src/toplevel.c:914
+include at ./Base.jl:380
+include at ./Base.jl:368
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+exec_options at ./client.jl:296
+_start at ./client.jl:506
+jfptr__start_53573.clone_1 at /home/yuri/packages/julias/julia-1.5-latest/lib/julia/sys.so (unknown line)
+_jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2214 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2398
+unknown function (ip: 0x401931)
+unknown function (ip: 0x401533)
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x4015d4)
+unknown function (ip: (nil))
+Allocations: 77063311 (Pool: 75436619; Big: 1626692); GC: 2261
+6
+test_sig
